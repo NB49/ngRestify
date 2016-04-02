@@ -38,7 +38,7 @@
     };
 
     //  The factory that is used to provide the GET, POST, PUT and DELETE commands
-    function _serviceCallers ($http, constants, $q, RestifyApiUrl) {
+    function _serviceCallers ($http, $q, RestifyApiUrl) {
         
         var Get = function (url) {
             var deferred = $q.defer();

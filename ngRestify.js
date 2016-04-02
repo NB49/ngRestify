@@ -24,7 +24,7 @@
 
     //  By default, the URL is set to a slash, meaning the root of the application, this can be overrided with this provider
     function _urlProvider () {     
-        var url = '/';
+        var url = '';
         return {
                 SetApiUrl: function (value) {
                     url = value;

@@ -1,4 +1,4 @@
-//  Easy to use module that creates a factory to make GET/POST/PUT/DELETE requests tto a named API and return a PROMISE. 
+//  Easy to use module that creates a factory to make GET/POST/PUT/DELETE requests to a named API and return a PROMISE. 
 //  This is just sugar for the developer to use here. It save's us writing out all this boiler plate every time.
 //  There is a provider setting that allows the user to inject a bearer token too, useful for .NET web API :)  
 

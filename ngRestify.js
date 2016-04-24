@@ -100,4 +100,6 @@
             Delete: Delete
         };
     };
+    
+    _serviceCallers.$inject = ['$http', '$q', 'RestifyApiUrl'];
 })();
